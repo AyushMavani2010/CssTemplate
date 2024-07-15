@@ -6,7 +6,13 @@
 }
 .container {
   width: auto;
-  padding: 15px 15px;
+  padding: 0px 15px;
+  background-image: url("/images/Vector\ 7.png");
+  background-repeat: no-repeat;
+  right: 0;
+  background-position: right top;
+  background-size: contain;
+  background-size:;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -25,7 +31,8 @@ a {
 }
 
 .p50 {
-  padding: 20px;
+  padding: 20px ;
+  padding-top: 100px;
 }
 /* ======================================== Header CSS ============================== */
 .head_main {
@@ -51,84 +58,11 @@ a {
 }
 
 /* ======================================== Home CSS ============================== */
-/* .home_main {
-  display: flex;
+.arrow {
+  margin-left: 100px;
 }
-
-.home_first {
-  width: 50%;
-}
-.home_sec {
-  width: 50%;
-}
-
-.home_first_star ul {
-  display: flex;
-  gap: 15px;
-  top: 450px;
-  left: 120px;
-  position: absolute;
-}
-
-.home_first p {
-  top: 390px;
-  left: 140px; 
-  color: rgba(7, 7, 7, 1);
-  position: relative;
-  font-weight: 500;
-  line-height: 20.88px;
-}
-.home_first img {
-  position: absolute;
-  top: 409px;
-  left: 67px;
-}
-.home_first .home_rec {
-  top: 392px;
-  left: 67.65px;
-   position: absolute; 
-}
-
-.home_sec_img {
-  position: relative;
-} */
-
 .hero_detail {
-  width: 600px;
-  height: 700px;
-  background-color: red;
   display: flex;
   align-items: center;
-}
-.home_first {
-  position: relative;
-}
-.home_righ {
-  position: absolute;
-}
-.home_rec {
-  top: -15px;
-  left: -0.65px;
-  position: absolute;
-}
 
-.box {
-  width: 317px;
-  height: 145px;
-  border-radius: 10px;
-  background-color:  rgba(255, 255, 255, 1);
-  position: relative;
-  z-index: 0;
-}
-
-.box::before {
-  width: 317px;
-  height: 145px;
-  content: '';
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
-  rotate: 6.59deg;
-  position: absolute;
-  left: 0;
-  z-index: -1;
 }

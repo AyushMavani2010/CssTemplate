@@ -17,50 +17,70 @@
 
   <body>
     <div class="container">
-      <!-- header section start -->
-      <header>
-        <div class="head_main">
-          <div class="head_first">
-            <img src="images/burger 3.svg" alt="" />
-            <a href="#">Burger</a>
+      <div class="back">
+        <!-- header section start -->
+        <header>
+          <div class="head_main">
+            <div class="head_first">
+              <img src="images/burger 3.svg" alt="" />
+              <a href="#">Burger</a>
+            </div>
+            <div class="header_menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Manuel</a></li>
+                <li><a href="#">Order</a></li>
+              </ul>
+            </div>
+            <div class="header_action">
+              <ul>
+                <li>
+                  <a href="#"><img src="images/search(2) 1.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/bag 2.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/Group 38.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="header_menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Manuel</a></li>
-              <li><a href="#">Order</a></li>
-            </ul>
-          </div>
-          <div class="header_action">
-            <ul>
-              <li>
-                <a href="#"><img src="images/search(2) 1.svg" alt="" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/bag 2.svg" alt="" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/Group 38.svg" alt="" /></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      <!-- home section start -->
-      <!-- <section>
-        <div>
-          <div>
-            <div>
-              <div class="home_first">
-                <div>
-                  <img src="/images/Rectangle 19.svg" alt="" />
-                  <img src="images/Rectangle 20.svg" class="home_rec" alt="" />
-                </div>
-                <div>
-                  <div>
+        </header>
+        <!-- home section start -->
+        <section class="p50">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <div class="hero_detail">
+              <div>
+                <div style="display: flex; padding-top: 200px">
+                  <div
+                    class="box"
+                    style="
+                      color: black;
+                      width: 300px;
+                      height: 130px;
+                      border-radius: 10px;
+                      background-color: rgba(255, 255, 255, 1);
+                      position: absolute;
+                      z-index: 1;
+                    "
+                  >
                     <div class="home_first_star">
-                      <ul>
+                      <ul
+                        style="
+                          display: flex;
+                          gap: 10px;
+                          justify-content: center;
+                          padding-top: 40px;
+                        "
+                      >
                         <li>
                           <svg
                             width="21"
@@ -165,51 +185,121 @@
                         </li>
                       </ul>
                     </div>
-                    <div><p class="">5k Happy review</p></div>
+                    <p
+                      style="
+                        font-weight: 500;
+                        display: flex;
+                        justify-content: center;
+                        font-size: 22px;
+                        padding-top: 22px;
+                      "
+                    >
+                      5k Happy review
+                    </p>
+                  </div>
+
+                  <div
+                    class="box1"
+                    style="
+                      width: 300px;
+                      height: 130px;
+                      border-radius: 10px;
+                      background-color: rgba(255, 255, 255, 0.75);
+                      rotate: 6.59deg;
+                      margin-left: 6px;
+                    "
+                  ></div>
+                  <div style="margin-left: 100px">
+                    <img src="images/Vector 9.png" width="200px" alt="" />
+                  </div>
+                </div>
+                <div>
+                  <div style="padding-top: 40px">
+                    <p style="font-weight: 700; font-size: 30px">
+                      Crispy, Crunchy, Veggie Deliciousness!
+                    </p>
+                    <p style="font-weight: 700; font-size: 70px">
+                      Burgers That <br />
+                      Love the Earth!
+                    </p>
+                    <div style="display: flex; align-items: center">
+                      <button
+                        style="
+                          font-weight: 600;
+                          color: rgba(101, 131, 126, 1);
+                          background-color: rgba(255, 255, 255, 1);
+                          width: 135px;
+                          height: 50px;
+                          border-radius: 5px;
+                          border: none;
+                        "
+                      >
+                        Explore
+                      </button>
+                      <div
+                        style="
+                          position: absolute;
+                          margin-left: 160px;
+                          margin-top: 5px;
+                        "
+                      >
+                        <svg
+                          width="50"
+                          height="86"
+                          viewBox="0 0 86 86"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="43"
+                            cy="43"
+                            r="41.5"
+                            stroke="white"
+                            stroke-width="3"
+                          />
+                        </svg>
+                      </div>
+                      <div style="margin-left: 43px; margin-top: 5px">
+                        <svg
+                          width="18"
+                          height="32"
+                          viewBox="0 0 28 32"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M26 12.5359C28.6667 14.0755 28.6667 17.9245 26 19.4641L6.5 30.7224C3.83333 32.262 0.499998 30.3375 0.499999 27.2583L0.5 4.74167C0.5 1.66247 3.83333 -0.262033 6.5 1.27757L26 12.5359Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </div>
+                      <p style="margin-left: 30px; font-weight: 500">
+                        Play Demo...
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div>
-              <p>Crispy, Crunchy, Veggie Deliciousness!</p>
-              <p>Burgers That</p>
-              <p>Love the Earth!</p>
-              <button>Explore</button>
-            </div>
-          </div>
-         \ <div class="home_sec">
-            <img
-              src="images/Rose Gold Feminine Calligraphy Monogram Logo(73) 2.svg"
-              alt=""
-            />
-            <div class="home_sec_img">
-              <img src="images/Vector 7.png" alt="" />
-            </div>
-          </div> 
-        </div>
-      </section> -->
-
-      <section class="p50">
-        <div
-          style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-          "
-        >
-          <div class="hero_detail">
-            <div>
-              <div class="box"  style="color: black;" >
-                Crispy, Crunchy, Veggie Deliciousness!
+            <div class="hero_detail">
+              <div>
+                <div
+                  style="display: flex; margin-right: 50px; margin-top: 60px"
+                >
+                  <img
+                    src="images/Rose Gold Feminine Calligraphy Monogram Logo(73) 2.svg"
+                    width="600px"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div class="box1"></div>
             </div>
-          
           </div>
-          <div class="hero_detail">fhdf</div>
-        </div>
-      </section>
+        </section>
+        <section class="p50">
+          <div><p>HOT ITEMS</p></div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
