@@ -76,7 +76,7 @@ a {
 
 /* ======================================== media query  ============================== */
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 400px) {
   .header_menu,
   .head_first a,
   .hds,
@@ -97,18 +97,25 @@ a {
   .heromain {
     padding: 100px !important;
     flex-direction: column;
-    width: auto;
   }
   .hdi {
-    width: 450px;
-    padding-left: 50px;
+    width: 300px;
+    margin-right: 0px !important ;
+    align-items: center;
+  }
+  .s2main {
+    width: 400px;
   }
   .s2 {
-    top: -100px !important;
+    /* top: -100px !important;   */
+  }
+  .s2p {
+    width: 300px;
+    padding-left: 100px;
   }
   .s3 {
     padding: 0px !important;
-    height: 2400px;
+    height: 2600px;
   }
   .s3i {
     height: 437px;
@@ -125,11 +132,15 @@ a {
     padding-top: 50px;
   }
   .s4m {
-    height: 620px !important;
+    width: 400px;
+    height: 540px !important;
   }
   .s4i2 {
     padding-top: 50px;
-    width: 450px;
+    width: 325px;
+  }
+  .s5main {
+    width: 400px;
   }
   .s5m {
     padding-top: 0px !important;
@@ -137,35 +148,103 @@ a {
     width: auto;
     flex-wrap: wrap;
   }
+  .s51 {
+    font-size: 40px !important;
+  }
   .s5t {
-    padding-top: 0px !important;
-    width: 475px !important;
-    margin-right: 40px;
+    width: 300px !important;
+    padding-left: 30px;
   }
   .s5sm {
     padding-top: 150px;
+    padding-left: 50px !important;
     margin-left: 8px;
   }
   .s5i {
-    width: 460px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
   }
   .s5s {
-    width: 460px;
-    height: 408px;
+    width: 300px;
+    height: 308px;
     border-radius: 50px;
   }
+  .s6main {
+    width: 400px;
+  }
   .s6h {
-    font-size: 35px !important;
+    font-size: 30px !important;
   }
   .s61 {
-    padding: 0px !important;
+    padding: 50px !important;
   }
   .s6s {
-    width: 460px !important;
-    height: 453px !important;
-    margin: 0px 0px 100px 7px;
-  }.s6c{
-    width: 400px;
+    width: 300px !important;
+    height: 353px !important;
+    margin: 0px 0px 100px 0px;
+  }
+  .s6c {
+    width: 250px;
+    font-size: 25px !important;
+    position: relative;
+    left: -15px !important;
+  }
+  .s6image {
+    width: 30px;
+    position: relative;
+    top: 18px !important;
+    left: 20px !important;
+  }
+  .s6mimage {
+    width: 70px !important;
+    height: 70px !important;
+    top: -75px !important;
+    left: 80px !important;
+    position: relative;
+  }
+  .s6p {
+    font-size: 17px !important;
+  }
+  .footer {
+    flex-wrap: wrap;
+    height: 1500px;
+    padding: 0px;
+  }
+  .fs {
+    width: 300px;
+  }
+  .fp {
+    margin-left: 0px !important;
+    margin-bottom: 50px;
+    font-size: 17px !important;
+    position: relative;
+    left: -20px;
+  }
+  .fi {
+    width: 300px !important ;
+  }
+  .fb {
+    right: 100px;
+  }
+  .fline {
+    left: -150px !important;
+    position: relative;
+  }
+  .fb {
+    left: -250px !important;
+    top: -23px;
+    position: relative;
+  }
+  .fe {
+    top: -100px !important;
+    left: 30px !important;
+    position: relative;
+  }
+  .fsl {
+    position: relative;
+    left: 100px !important;
+  }
+  .fl {
+    margin-left: 0px !important;
   }
 }
